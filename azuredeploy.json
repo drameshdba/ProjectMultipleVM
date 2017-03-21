@@ -112,14 +112,13 @@
             },
             "defaultValue": "P@ssword1Password2"
         },
-        "vmCount": {
-            "type": "int",
-            "defaultValue": 1,
+      "vmCount": {
+            "type": "string",
             "metadata": {
                 "description": "How many Virtual Machine do you want to deploy?"
             },
-            "type": "array",
-            "defaultValue": [1,2,3,4]
+            "defaultValue": "1",
+            "allowedValues": ["0", "1", "2", "3", "4" ]
         },
         "vmType": {
             "type": "string",
