@@ -114,10 +114,11 @@
         },
         "vmCount": {
             "type": "int",
+            "defaultValue": 1,
             "metadata": {
                 "description": "How many Virtual Machine do you want to deploy?"
             },
-            "defaultValue": 1,
+            "type": "array",
             "allowedValues": [1, 2, 3, 4]
         },
         "vmType": {
