@@ -118,7 +118,7 @@
                 "description": "How many Virtual Machine do you want to deploy?"
             },
             "defaultValue": "one",
-            "allowedValues": ["1", "2", "3", "4" ]
+            "allowedValues": ["one", "two", "three", "four" ]
         },
         "vmType": {
             "type": "string",
